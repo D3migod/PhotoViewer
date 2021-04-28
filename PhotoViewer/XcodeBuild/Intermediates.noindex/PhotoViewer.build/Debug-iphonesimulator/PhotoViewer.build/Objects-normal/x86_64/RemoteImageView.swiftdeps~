@@ -1,0 +1,302 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RemoteImageView"
+provides-nominal:
+- "11PhotoViewer15RemoteImageViewC"
+provides-member:
+- ["11PhotoViewer15RemoteImageViewC", ""]
+provides-dynamic-lookup:
+- "remoteImageSetter"
+- "task"
+depends-top-level:
+- "==="
+- "AssignmentPrecedence"
+- "Cancelable"
+- "RemoteImageSetter"
+- "RemoteImageView"
+- "UIImageView"
+- !private "image"
+- !private "remoteImageSetter"
+- !private "task"
+depends-member:
+- ["SK", ""]
+- ["So15CALayerDelegateP", "Cancelable"]
+- ["So15CALayerDelegateP", "RemoteImageSetter"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "image"]
+- ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", "remoteImageSetter"]
+- ["So15CALayerDelegateP", "task"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "remoteImageSetter"]
+- !private ["s7CVarArgP", "task"]
+- !private ["11PhotoViewer10CancelableP", "cancel"]
+- ["Sl", ""]
+- ["SL", ""]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "remoteImageSetter"]
+- !private ["s28CustomDebugStringConvertibleP", "task"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "remoteImageSetter"]
+- !private ["s23CustomStringConvertibleP", "task"]
+- ["SQ", ""]
+- !private ["SQ", "image"]
+- !private ["SQ", "remoteImageSetter"]
+- !private ["SQ", "task"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["SH", ""]
+- !private ["SH", "image"]
+- !private ["SH", "remoteImageSetter"]
+- !private ["SH", "task"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", "Cancelable"]
+- ["So8NSCodingP", "RemoteImageSetter"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "image"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "remoteImageSetter"]
+- ["So8NSCodingP", "task"]
+- ["So8NSObjectC", "Cancelable"]
+- ["So8NSObjectC", "RemoteImageSetter"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "remoteImageSetter"]
+- ["So8NSObjectC", "task"]
+- ["So8NSObjectP", "Cancelable"]
+- ["So8NSObjectP", "RemoteImageSetter"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "image"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "remoteImageSetter"]
+- ["So8NSObjectP", "task"]
+- !private ["11PhotoViewer17RemoteImageSetterC", "requestImage"]
+- ["11PhotoViewer15RemoteImageViewC", "Cancelable"]
+- ["11PhotoViewer15RemoteImageViewC", "RemoteImageSetter"]
+- ["11PhotoViewer15RemoteImageViewC", ""]
+- ["11PhotoViewer15RemoteImageViewC", "deinit"]
+- !private ["11PhotoViewer15RemoteImageViewC", "image"]
+- ["11PhotoViewer15RemoteImageViewC", "init"]
+- ["11PhotoViewer15RemoteImageViewC", "remoteImageSetter"]
+- !private ["11PhotoViewer15RemoteImageViewC", "task"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "Cancelable"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "RemoteImageSetter"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", ""]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "remoteImageSetter"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "task"]
+- ["So29UIAccessibilityIdentificationP", "Cancelable"]
+- ["So29UIAccessibilityIdentificationP", "RemoteImageSetter"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", "remoteImageSetter"]
+- ["So29UIAccessibilityIdentificationP", "task"]
+- ["So12UIAppearanceP", "Cancelable"]
+- ["So12UIAppearanceP", "RemoteImageSetter"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "image"]
+- ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", "remoteImageSetter"]
+- ["So12UIAppearanceP", "task"]
+- ["So21UIAppearanceContainerP", "Cancelable"]
+- ["So21UIAppearanceContainerP", "RemoteImageSetter"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "image"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "remoteImageSetter"]
+- ["So21UIAppearanceContainerP", "task"]
+- ["So17UICoordinateSpaceP", "Cancelable"]
+- ["So17UICoordinateSpaceP", "RemoteImageSetter"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "image"]
+- ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", "remoteImageSetter"]
+- ["So17UICoordinateSpaceP", "task"]
+- ["So13UIDynamicItemP", "Cancelable"]
+- ["So13UIDynamicItemP", "RemoteImageSetter"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "image"]
+- ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", "remoteImageSetter"]
+- ["So13UIDynamicItemP", "task"]
+- ["So18UIFocusEnvironmentP", "Cancelable"]
+- ["So18UIFocusEnvironmentP", "RemoteImageSetter"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "remoteImageSetter"]
+- ["So18UIFocusEnvironmentP", "task"]
+- ["So11UIFocusItemP", "Cancelable"]
+- ["So11UIFocusItemP", "RemoteImageSetter"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "image"]
+- ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", "remoteImageSetter"]
+- ["So11UIFocusItemP", "task"]
+- ["So20UIFocusItemContainerP", "Cancelable"]
+- ["So20UIFocusItemContainerP", "RemoteImageSetter"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "image"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "remoteImageSetter"]
+- ["So20UIFocusItemContainerP", "task"]
+- ["So11UIImageViewC", "Cancelable"]
+- ["So11UIImageViewC", "RemoteImageSetter"]
+- ["So11UIImageViewC", ""]
+- !private ["So11UIImageViewC", "image"]
+- ["So11UIImageViewC", "init"]
+- ["So11UIImageViewC", "remoteImageSetter"]
+- ["So11UIImageViewC", "task"]
+- ["So24UILargeContentViewerItemP", "Cancelable"]
+- ["So24UILargeContentViewerItemP", "RemoteImageSetter"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "image"]
+- ["So24UILargeContentViewerItemP", "init"]
+- ["So24UILargeContentViewerItemP", "remoteImageSetter"]
+- ["So24UILargeContentViewerItemP", "task"]
+- ["So30UIPasteConfigurationSupportingP", "Cancelable"]
+- ["So30UIPasteConfigurationSupportingP", "RemoteImageSetter"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "remoteImageSetter"]
+- ["So30UIPasteConfigurationSupportingP", "task"]
+- ["So11UIResponderC", "Cancelable"]
+- ["So11UIResponderC", "RemoteImageSetter"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "remoteImageSetter"]
+- ["So11UIResponderC", "task"]
+- ["So30UIResponderStandardEditActionsP", "Cancelable"]
+- ["So30UIResponderStandardEditActionsP", "RemoteImageSetter"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "remoteImageSetter"]
+- ["So30UIResponderStandardEditActionsP", "task"]
+- ["So18UITraitEnvironmentP", "Cancelable"]
+- ["So18UITraitEnvironmentP", "RemoteImageSetter"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "image"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "remoteImageSetter"]
+- ["So18UITraitEnvironmentP", "task"]
+- ["So23UIUserActivityRestoringP", "Cancelable"]
+- ["So23UIUserActivityRestoringP", "RemoteImageSetter"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "remoteImageSetter"]
+- ["So23UIUserActivityRestoringP", "task"]
+- ["So6UIViewC", "Cancelable"]
+- ["So6UIViewC", "RemoteImageSetter"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "remoteImageSetter"]
+- ["So6UIViewC", "task"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "remoteImageSetter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "task"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "remoteImageSetter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "task"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "remoteImageSetter"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "task"]
+depends-nominal:
+- "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "11PhotoViewer10CancelableP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "11PhotoViewer17RemoteImageSetterC"
+- "11PhotoViewer15RemoteImageViewC"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So11UIImageViewC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "756d639ff8a45f9b79a83ff39e600c69"

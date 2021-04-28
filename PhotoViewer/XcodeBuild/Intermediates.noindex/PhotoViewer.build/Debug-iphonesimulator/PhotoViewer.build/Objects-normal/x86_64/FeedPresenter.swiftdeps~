@@ -1,0 +1,412 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FeedPresenter"
+provides-nominal:
+- "11PhotoViewer13FeedPresenterC"
+provides-member:
+- ["11PhotoViewer13FeedPresenterC", ""]
+provides-dynamic-lookup:
+- "didFailToLoadPhotos"
+- "didLoadPhotos"
+- "interactor"
+- "maxPage"
+- "view"
+- "willLoadViewsAt"
+depends-top-level:
+- "+"
+- !private "+="
+- !private "-"
+- !private "<"
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- !private "DispatchQueue"
+- "Error"
+- "FeedInteractorInput"
+- "FeedInteractorOutputDelegate"
+- "FeedPresenter"
+- "FeedPresenterCore"
+- "FeedViewInput"
+- "FeedViewOutputDelegate"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "LocalizationMock"
+- "Page"
+- "PhotoData"
+- "Post"
+- "RemoteImageSetter"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "_ImageLiteralType"
+- !private "feedPhotoUrlString"
+- !private "id"
+- "interactor"
+- !private "maxPage"
+- !private "print"
+- !private "secret"
+- !private "server"
+- !private "title"
+- !private "view"
+- !private "||"
+depends-member:
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "count"]
+- !private ["Sa", "last"]
+- !private ["SK", ""]
+- !private ["SK", "compactMap"]
+- !private ["SK", "count"]
+- !private ["SK", "last"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "main"]
+- !private ["Sl", ""]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "count"]
+- !private ["Sl", "last"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "hideLoadingIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "loadImageData"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "posts"]
+- !private ["s28CustomDebugStringConvertibleP", "refreshData"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "hideLoadingIndicator"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "loadImageData"]
+- !private ["s17CustomReflectableP", "posts"]
+- !private ["s17CustomReflectableP", "refreshData"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["Se", "Post"]
+- !private ["Se", "RemoteImageSetter"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "count"]
+- !private ["Se", "feedPhotoUrlString"]
+- !private ["Se", "hideLoadingIndicator"]
+- !private ["Se", "id"]
+- !private ["Se", "last"]
+- !private ["Se", "loadImageData"]
+- !private ["Se", "post"]
+- !private ["Se", "posts"]
+- !private ["Se", "refreshData"]
+- !private ["Se", "secret"]
+- !private ["Se", "server"]
+- !private ["Se", "title"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "count"]
+- !private ["SE", "hideLoadingIndicator"]
+- !private ["SE", "last"]
+- !private ["SE", "loadImageData"]
+- !private ["SE", "posts"]
+- !private ["SE", "refreshData"]
+- !private ["SQ", "=="]
+- !private ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "count"]
+- !private ["SQ", "hideLoadingIndicator"]
+- !private ["SQ", "index"]
+- ["SQ", "initial"]
+- !private ["SQ", "last"]
+- !private ["SQ", "loadImageData"]
+- !private ["SQ", "main"]
+- ["SQ", "next"]
+- !private ["SQ", "nextPage"]
+- !private ["SQ", "posts"]
+- !private ["SQ", "refreshData"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s23ExpressibleByNilLiteralP", "hideLoadingIndicator"]
+- !private ["s23ExpressibleByNilLiteralP", "loadImageData"]
+- !private ["s23ExpressibleByNilLiteralP", "posts"]
+- !private ["s23ExpressibleByNilLiteralP", "refreshData"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["11PhotoViewer19FeedInteractorInputP", "load"]
+- !private ["11PhotoViewer19FeedInteractorInputP", "loadImageData"]
+- !private ["11PhotoViewer28FeedInteractorOutputDelegateP", "DispatchQueue"]
+- !private ["11PhotoViewer28FeedInteractorOutputDelegateP", "LocalizationMock"]
+- ["11PhotoViewer28FeedInteractorOutputDelegateP", ""]
+- ["11PhotoViewer28FeedInteractorOutputDelegateP", "didFailToLoadPhotos"]
+- ["11PhotoViewer28FeedInteractorOutputDelegateP", "didLoadPhotos"]
+- !private ["11PhotoViewer28FeedInteractorOutputDelegateP", "interactor"]
+- !private ["11PhotoViewer28FeedInteractorOutputDelegateP", "maxPage"]
+- !private ["11PhotoViewer28FeedInteractorOutputDelegateP", "print"]
+- ["11PhotoViewer28FeedInteractorOutputDelegateP", "view"]
+- ["11PhotoViewer28FeedInteractorOutputDelegateP", "willLoadViewsAt"]
+- !private ["11PhotoViewer13FeedPresenterC", "DispatchQueue"]
+- ["11PhotoViewer13FeedPresenterC", "Error"]
+- ["11PhotoViewer13FeedPresenterC", "FeedInteractorInput"]
+- ["11PhotoViewer13FeedPresenterC", "FeedViewInput"]
+- ["11PhotoViewer13FeedPresenterC", "Int"]
+- !private ["11PhotoViewer13FeedPresenterC", "LocalizationMock"]
+- ["11PhotoViewer13FeedPresenterC", "Page"]
+- ["11PhotoViewer13FeedPresenterC", "PhotoData"]
+- ["11PhotoViewer13FeedPresenterC", ""]
+- ["11PhotoViewer13FeedPresenterC", "deinit"]
+- ["11PhotoViewer13FeedPresenterC", "didFailToLoadPhotos"]
+- ["11PhotoViewer13FeedPresenterC", "didLoadPhotos"]
+- ["11PhotoViewer13FeedPresenterC", "init"]
+- !private ["11PhotoViewer13FeedPresenterC", "interactor"]
+- !private ["11PhotoViewer13FeedPresenterC", "maxPage"]
+- !private ["11PhotoViewer13FeedPresenterC", "print"]
+- ["11PhotoViewer13FeedPresenterC", "view"]
+- ["11PhotoViewer13FeedPresenterC", "willLoadViewsAt"]
+- !private ["11PhotoViewer17FeedPresenterCoreP", "DispatchQueue"]
+- !private ["11PhotoViewer17FeedPresenterCoreP", "LocalizationMock"]
+- ["11PhotoViewer17FeedPresenterCoreP", ""]
+- ["11PhotoViewer17FeedPresenterCoreP", "didFailToLoadPhotos"]
+- ["11PhotoViewer17FeedPresenterCoreP", "didLoadPhotos"]
+- !private ["11PhotoViewer17FeedPresenterCoreP", "interactor"]
+- !private ["11PhotoViewer17FeedPresenterCoreP", "maxPage"]
+- !private ["11PhotoViewer17FeedPresenterCoreP", "print"]
+- ["11PhotoViewer17FeedPresenterCoreP", "view"]
+- ["11PhotoViewer17FeedPresenterCoreP", "willLoadViewsAt"]
+- !private ["11PhotoViewer13FeedViewInputP", "hideLoadingIndicator"]
+- !private ["11PhotoViewer13FeedViewInputP", "posts"]
+- !private ["11PhotoViewer13FeedViewInputP", "refreshData"]
+- !private ["11PhotoViewer13FeedViewInputP", "showAlert"]
+- !private ["11PhotoViewer22FeedViewOutputDelegateP", "DispatchQueue"]
+- !private ["11PhotoViewer22FeedViewOutputDelegateP", "LocalizationMock"]
+- ["11PhotoViewer22FeedViewOutputDelegateP", ""]
+- ["11PhotoViewer22FeedViewOutputDelegateP", "didFailToLoadPhotos"]
+- ["11PhotoViewer22FeedViewOutputDelegateP", "didLoadPhotos"]
+- !private ["11PhotoViewer22FeedViewOutputDelegateP", "interactor"]
+- !private ["11PhotoViewer22FeedViewOutputDelegateP", "maxPage"]
+- !private ["11PhotoViewer22FeedViewOutputDelegateP", "print"]
+- ["11PhotoViewer22FeedViewOutputDelegateP", "view"]
+- ["11PhotoViewer22FeedViewOutputDelegateP", "willLoadViewsAt"]
+- !private ["SH", "async"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "count"]
+- !private ["SH", "hideLoadingIndicator"]
+- !private ["SH", "last"]
+- !private ["SH", "loadImageData"]
+- !private ["SH", "main"]
+- !private ["SH", "posts"]
+- !private ["SH", "refreshData"]
+- !private ["11PhotoViewer16LocalizationMockV14LoadErrorAlertV", "message"]
+- !private ["11PhotoViewer16LocalizationMockV14LoadErrorAlertV", "title"]
+- !private ["11PhotoViewer16LocalizationMockV", "LoadErrorAlert"]
+- !private ["SM", ""]
+- !private ["SM", "compactMap"]
+- !private ["SM", "count"]
+- !private ["SM", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["Sq", "hideLoadingIndicator"]
+- !private ["Sq", "loadImageData"]
+- !private ["Sq", "posts"]
+- !private ["Sq", "refreshData"]
+- ["11PhotoViewer4PageO", "Page"]
+- ["11PhotoViewer4PageO", ""]
+- !private ["11PhotoViewer4PageO", "index"]
+- ["11PhotoViewer4PageO", "initial"]
+- ["11PhotoViewer4PageO", "next"]
+- !private ["11PhotoViewer4PageO", "nextPage"]
+- ["11PhotoViewer0A4DataV", "Post"]
+- ["11PhotoViewer0A4DataV", "RemoteImageSetter"]
+- ["11PhotoViewer0A4DataV", "String"]
+- ["11PhotoViewer0A4DataV", ""]
+- !private ["11PhotoViewer0A4DataV", "feedPhotoUrlString"]
+- !private ["11PhotoViewer0A4DataV", "id"]
+- !private ["11PhotoViewer0A4DataV", "post"]
+- !private ["11PhotoViewer0A4DataV", "secret"]
+- !private ["11PhotoViewer0A4DataV", "server"]
+- !private ["11PhotoViewer0A4DataV", "title"]
+- !private ["11PhotoViewer4PostV", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "count"]
+- !private ["Sk", "last"]
+- !private ["Sm", ""]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "count"]
+- !private ["Sm", "last"]
+- ["11PhotoViewer17RemoteImageSetterC", "LoadData"]
+- !private ["11PhotoViewer17RemoteImageSetterC", "init"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", ""]
+- !private ["ST", "compactMap"]
+- !private ["ST", "count"]
+- !private ["ST", "last"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "hideLoadingIndicator"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "loadImageData"]
+- !private ["s21_ObjectiveCBridgeableP", "posts"]
+- !private ["s21_ObjectiveCBridgeableP", "refreshData"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "11PhotoViewer19FeedInteractorInputP"
+- "11PhotoViewer28FeedInteractorOutputDelegateP"
+- "11PhotoViewer13FeedPresenterC"
+- "11PhotoViewer17FeedPresenterCoreP"
+- !private "11PhotoViewer13FeedViewInputP"
+- "11PhotoViewer22FeedViewOutputDelegateP"
+- !private "SH"
+- !private "11PhotoViewer16LocalizationMockV14LoadErrorAlertV"
+- !private "11PhotoViewer16LocalizationMockV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "So9OS_objectC"
+- !private "Sq"
+- "11PhotoViewer4PageO"
+- "11PhotoViewer0A4DataV"
+- !private "11PhotoViewer4PostV"
+- !private "Sk"
+- !private "Sm"
+- "11PhotoViewer17RemoteImageSetterC"
+- !private "7Combine9SchedulerP"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f586dd89b39ad270c86c7e8e478cb549"

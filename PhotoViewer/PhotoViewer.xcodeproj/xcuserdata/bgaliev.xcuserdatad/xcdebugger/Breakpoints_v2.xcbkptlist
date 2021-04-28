@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7D37413E-452A-4917-9CE9-B5C48FA1FEC5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "027ECA2F-1F40-4189-9A22-35AEC023C3AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotoViewer/Modules/PhotoFeed/Presenter/FeedPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "didLoadPhotos(_:for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64E8BF38-F94A-4A21-9EA3-7FC923BB28FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotoViewer/Modules/PhotoFeed/Presenter/FeedPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "willLoadViewsAt(rowNumbers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0382DFD8-84A1-4FB3-87AC-73736B9AF173"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotoViewer/Utils/DataManagers/Remote/FlickrAPI/FeedRemoteDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "getFeed(page:resultHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0382DFD8-84A1-4FB3-87AC-73736B9AF173 - 363ce5d297970018"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotoViewer.FeedRemoteDataManager.getFeed(page: PhotoViewer.Page, resultHandler: Swift.Optional&lt;(PhotoViewer.Result&lt;Swift.Array&lt;PhotoViewer.PhotoData&gt;&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "PhotoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bgaliev/Projects/PhotoViewer/PhotoViewer/PhotoViewer/Utils/DataManagers/Remote/FlickrAPI/FeedRemoteDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "178">
+               </Location>
+               <Location
+                  uuid = "0382DFD8-84A1-4FB3-87AC-73736B9AF173 - 3f4d1ca5d5c767c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (PhotoViewer.Result&lt;PhotoViewer.PhotosSearch&gt;) -&gt; () in PhotoViewer.FeedRemoteDataManager.getFeed(page: PhotoViewer.Page, resultHandler: Swift.Optional&lt;(PhotoViewer.Result&lt;Swift.Array&lt;PhotoViewer.PhotoData&gt;&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "PhotoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bgaliev/Projects/PhotoViewer/PhotoViewer/PhotoViewer/Utils/DataManagers/Remote/FlickrAPI/FeedRemoteDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "179">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

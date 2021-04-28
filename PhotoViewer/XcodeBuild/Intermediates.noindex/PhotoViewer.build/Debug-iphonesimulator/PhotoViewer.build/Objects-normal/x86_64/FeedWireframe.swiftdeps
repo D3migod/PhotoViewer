@@ -1,0 +1,198 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FeedWireframe"
+provides-nominal:
+- "11PhotoViewer13FeedWireframeC"
+provides-member:
+- ["11PhotoViewer13FeedWireframeC", ""]
+provides-dynamic-lookup:
+- "createConnections"
+- "mainStoryboardIdentifier"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "FeedInteractor"
+- "FeedInteractorCore"
+- "FeedInteractorInput"
+- "FeedInteractorOutputDelegate"
+- !private "FeedPresenter"
+- "FeedPresenterCore"
+- "FeedRemoteDataManagerInput"
+- !private "FeedViewController"
+- "FeedViewOutputDelegate"
+- "FeedWireframe"
+- "FeedWireframeInput"
+- !private "FlickrRemoteDataManagerFactory"
+- "StringLiteralType"
+- "UIViewController"
+depends-member:
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "outputDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "outputDelegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "outputDelegate"]
+- !private ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "outputDelegate"]
+- !private ["11PhotoViewer14FeedInteractorC", ""]
+- !private ["11PhotoViewer14FeedInteractorC", "init"]
+- !private ["11PhotoViewer18FeedInteractorCoreP", "init"]
+- !private ["11PhotoViewer18FeedInteractorCoreP", "outputDelegate"]
+- !private ["11PhotoViewer19FeedInteractorInputP", "init"]
+- !private ["11PhotoViewer19FeedInteractorInputP", "outputDelegate"]
+- !private ["11PhotoViewer28FeedInteractorOutputDelegateP", "init"]
+- !private ["11PhotoViewer28FeedInteractorOutputDelegateP", "view"]
+- !private ["11PhotoViewer13FeedPresenterC", ""]
+- !private ["11PhotoViewer13FeedPresenterC", "init"]
+- !private ["11PhotoViewer17FeedPresenterCoreP", "init"]
+- !private ["11PhotoViewer17FeedPresenterCoreP", "view"]
+- !private ["11PhotoViewer21FeedRemoteDataManagerC", ""]
+- !private ["11PhotoViewer18FeedViewControllerC", ""]
+- !private ["11PhotoViewer18FeedViewControllerC", "init"]
+- !private ["11PhotoViewer18FeedViewControllerC", "outputDelegate"]
+- !private ["11PhotoViewer13FeedViewInputP", "init"]
+- !private ["11PhotoViewer13FeedViewInputP", "outputDelegate"]
+- !private ["11PhotoViewer22FeedViewOutputDelegateP", "init"]
+- !private ["11PhotoViewer22FeedViewOutputDelegateP", "view"]
+- !private ["11PhotoViewer13FeedWireframeC", "FeedInteractor"]
+- !private ["11PhotoViewer13FeedWireframeC", "FeedInteractorCore"]
+- !private ["11PhotoViewer13FeedWireframeC", "FeedInteractorInput"]
+- !private ["11PhotoViewer13FeedWireframeC", "FeedInteractorOutputDelegate"]
+- !private ["11PhotoViewer13FeedWireframeC", "FeedPresenter"]
+- !private ["11PhotoViewer13FeedWireframeC", "FeedPresenterCore"]
+- !private ["11PhotoViewer13FeedWireframeC", "FeedRemoteDataManagerInput"]
+- !private ["11PhotoViewer13FeedWireframeC", "FeedViewController"]
+- !private ["11PhotoViewer13FeedWireframeC", "FeedViewOutputDelegate"]
+- !private ["11PhotoViewer13FeedWireframeC", "FlickrRemoteDataManagerFactory"]
+- ["11PhotoViewer13FeedWireframeC", "UIViewController"]
+- ["11PhotoViewer13FeedWireframeC", "createConnections"]
+- ["11PhotoViewer13FeedWireframeC", "deinit"]
+- ["11PhotoViewer13FeedWireframeC", "init"]
+- !private ["11PhotoViewer13FeedWireframeC", "mainStoryboardIdentifier"]
+- !private ["11PhotoViewer18FeedWireframeInputP", "FeedInteractor"]
+- !private ["11PhotoViewer18FeedWireframeInputP", "FeedPresenter"]
+- !private ["11PhotoViewer18FeedWireframeInputP", "FeedViewController"]
+- !private ["11PhotoViewer18FeedWireframeInputP", "FlickrRemoteDataManagerFactory"]
+- ["11PhotoViewer18FeedWireframeInputP", ""]
+- ["11PhotoViewer18FeedWireframeInputP", "createConnections"]
+- !private ["11PhotoViewer30FlickrRemoteDataManagerFactoryC", "createFeedDataManager"]
+- !private ["11PhotoViewer30FlickrRemoteDataManagerFactoryC", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "outputDelegate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "outputDelegate"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "outputDelegate"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "outputDelegate"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "outputDelegate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "outputDelegate"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "outputDelegate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "outputDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "outputDelegate"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "outputDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "outputDelegate"]
+- !private ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "outputDelegate"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "outputDelegate"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "outputDelegate"]
+- !private ["So32UITableViewDataSourcePrefetchingP", "init"]
+- !private ["So32UITableViewDataSourcePrefetchingP", "outputDelegate"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "outputDelegate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "outputDelegate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "outputDelegate"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "outputDelegate"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outputDelegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "outputDelegate"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "11PhotoViewer14FeedInteractorC"
+- !private "11PhotoViewer18FeedInteractorCoreP"
+- !private "11PhotoViewer19FeedInteractorInputP"
+- !private "11PhotoViewer28FeedInteractorOutputDelegateP"
+- !private "11PhotoViewer13FeedPresenterC"
+- !private "11PhotoViewer17FeedPresenterCoreP"
+- !private "11PhotoViewer21FeedRemoteDataManagerC"
+- !private "11PhotoViewer18FeedViewControllerC"
+- !private "11PhotoViewer13FeedViewInputP"
+- !private "11PhotoViewer22FeedViewOutputDelegateP"
+- "11PhotoViewer13FeedWireframeC"
+- "11PhotoViewer18FeedWireframeInputP"
+- !private "11PhotoViewer30FlickrRemoteDataManagerFactoryC"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So16UIStateRestoringP"
+- !private "So21UITableViewDataSourceP"
+- !private "So32UITableViewDataSourcePrefetchingP"
+- !private "So19UITableViewDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "325e65a5de5cf2b78d00ba4d457da051"

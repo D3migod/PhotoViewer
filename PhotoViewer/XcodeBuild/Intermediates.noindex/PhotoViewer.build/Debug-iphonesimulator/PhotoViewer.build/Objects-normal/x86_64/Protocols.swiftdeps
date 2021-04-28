@@ -1,0 +1,183 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FeedWireframeInput"
+- "FeedInteractorCore"
+- "FeedInteractorOutputDelegate"
+- "FeedRemoteDataManagerInput"
+- "FeedViewInput"
+- "FeedViewOutputDelegate"
+- "FeedPresenterCore"
+- "FeedInteractorInput"
+provides-nominal:
+- "11PhotoViewer18FeedWireframeInputP"
+- "11PhotoViewer18FeedInteractorCoreP"
+- "11PhotoViewer28FeedInteractorOutputDelegateP"
+- "11PhotoViewer26FeedRemoteDataManagerInputP"
+- "11PhotoViewer13FeedViewInputP"
+- "11PhotoViewer22FeedViewOutputDelegateP"
+- "11PhotoViewer17FeedPresenterCoreP"
+- "11PhotoViewer19FeedInteractorInputP"
+provides-member:
+- ["11PhotoViewer18FeedWireframeInputP", ""]
+- ["11PhotoViewer18FeedInteractorCoreP", ""]
+- ["11PhotoViewer28FeedInteractorOutputDelegateP", ""]
+- ["11PhotoViewer26FeedRemoteDataManagerInputP", ""]
+- ["11PhotoViewer13FeedViewInputP", ""]
+- ["11PhotoViewer22FeedViewOutputDelegateP", ""]
+- ["11PhotoViewer17FeedPresenterCoreP", ""]
+- ["11PhotoViewer19FeedInteractorInputP", ""]
+- ["11PhotoViewer19FeedInteractorInputP", "load"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "Cancelable"
+- "Data"
+- "DispatchQueue"
+- "Error"
+- "FeedInteractorCore"
+- "FeedInteractorInput"
+- "FeedInteractorOutputDelegate"
+- "FeedPresenterCore"
+- "FeedRemoteDataManagerInput"
+- "FeedViewInput"
+- "FeedViewOutputDelegate"
+- "FeedWireframeInput"
+- "Int"
+- "Page"
+- "PhotoData"
+- "Post"
+- "Result"
+- "String"
+- "UIAlertAction"
+- "UIViewController"
+- "Void"
+- !private "load"
+depends-member:
+- !private ["s7CVarArgP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SQ", ""]
+- !private ["SQ", "main"]
+- ["11PhotoViewer18FeedInteractorCoreP", "FeedInteractorOutputDelegate"]
+- ["11PhotoViewer18FeedInteractorCoreP", "outputDelegate"]
+- ["11PhotoViewer19FeedInteractorInputP", "Cancelable"]
+- ["11PhotoViewer19FeedInteractorInputP", "Data"]
+- ["11PhotoViewer19FeedInteractorInputP", "DispatchQueue"]
+- ["11PhotoViewer19FeedInteractorInputP", "Page"]
+- ["11PhotoViewer19FeedInteractorInputP", "String"]
+- ["11PhotoViewer19FeedInteractorInputP", "Void"]
+- ["11PhotoViewer19FeedInteractorInputP", ""]
+- ["11PhotoViewer19FeedInteractorInputP", "load"]
+- ["11PhotoViewer19FeedInteractorInputP", "loadImageData"]
+- ["11PhotoViewer28FeedInteractorOutputDelegateP", "Error"]
+- ["11PhotoViewer28FeedInteractorOutputDelegateP", "Page"]
+- ["11PhotoViewer28FeedInteractorOutputDelegateP", "PhotoData"]
+- ["11PhotoViewer28FeedInteractorOutputDelegateP", "didFailToLoadPhotos"]
+- ["11PhotoViewer28FeedInteractorOutputDelegateP", "didLoadPhotos"]
+- ["11PhotoViewer17FeedPresenterCoreP", "FeedViewInput"]
+- ["11PhotoViewer17FeedPresenterCoreP", "view"]
+- ["11PhotoViewer26FeedRemoteDataManagerInputP", "Page"]
+- ["11PhotoViewer26FeedRemoteDataManagerInputP", "PhotoData"]
+- ["11PhotoViewer26FeedRemoteDataManagerInputP", "Result"]
+- ["11PhotoViewer26FeedRemoteDataManagerInputP", "Void"]
+- ["11PhotoViewer26FeedRemoteDataManagerInputP", "getFeed"]
+- ["11PhotoViewer13FeedViewInputP", "FeedViewOutputDelegate"]
+- ["11PhotoViewer13FeedViewInputP", "Post"]
+- ["11PhotoViewer13FeedViewInputP", "String"]
+- ["11PhotoViewer13FeedViewInputP", "UIAlertAction"]
+- ["11PhotoViewer13FeedViewInputP", "Void"]
+- ["11PhotoViewer13FeedViewInputP", "hideLoadingIndicator"]
+- ["11PhotoViewer13FeedViewInputP", "outputDelegate"]
+- ["11PhotoViewer13FeedViewInputP", "posts"]
+- ["11PhotoViewer13FeedViewInputP", "refreshData"]
+- ["11PhotoViewer13FeedViewInputP", "showAlert"]
+- ["11PhotoViewer13FeedViewInputP", "showLoadingIndicator"]
+- ["11PhotoViewer22FeedViewOutputDelegateP", "Int"]
+- ["11PhotoViewer22FeedViewOutputDelegateP", "willLoadViewsAt"]
+- ["11PhotoViewer18FeedWireframeInputP", "UIViewController"]
+- ["11PhotoViewer18FeedWireframeInputP", "createConnections"]
+- !private ["SH", "main"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SQ"
+- "11PhotoViewer18FeedInteractorCoreP"
+- "11PhotoViewer19FeedInteractorInputP"
+- "11PhotoViewer28FeedInteractorOutputDelegateP"
+- "11PhotoViewer17FeedPresenterCoreP"
+- "11PhotoViewer26FeedRemoteDataManagerInputP"
+- "11PhotoViewer13FeedViewInputP"
+- "11PhotoViewer22FeedViewOutputDelegateP"
+- "11PhotoViewer18FeedWireframeInputP"
+- !private "SH"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "So9OS_objectC"
+- !private "7Combine9SchedulerP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0fe4e9931b3b490c536e19a654eaa7e0"
